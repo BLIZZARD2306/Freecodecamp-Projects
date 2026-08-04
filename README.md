@@ -18,4 +18,4 @@ Through building the numerous projects and exercises in this course, I developed
 * Designing accessible websites for screen readers.
 
 ---
-*Created by [BLIZZARD2306] - Check out my [GitHub Profile](https://github.com/BLIZZARD2306) for more projects!*
+*Created by [Michael Lewis D. Moreno] - Check out my [GitHub Profile](https://github.com/BLIZZARD2306) for more projects!*
