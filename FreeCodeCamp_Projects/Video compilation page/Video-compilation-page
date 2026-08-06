@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Video Compilation Page</h1>
+        <p>Video Compilations Page using html</p>
+
+        <section>
+            <h2>React native tutorial</h2>
+            <p>An introduction to React Native development.</p>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/4GtVeULrNks?si=W0rIqdl6UH2xnFvz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>19 Questions before the world cup</h2>
+            <p>Answering major questions ahead of the World Cup.</p>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/Ikw5HyhEP0A?si=S6af-FLWrLmCqEVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2>The fall of pls donate in robloxs</h2>
+            <p>An analysis of the PLS DONATE game mode on Roblox.</p>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/Ikw5HyhEP0A?si=S6af-FLWrLmCqEVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+</body>
+
+</html>
