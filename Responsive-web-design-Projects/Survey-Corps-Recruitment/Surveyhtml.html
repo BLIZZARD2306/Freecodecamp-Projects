@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Corps Application Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Corps Application Form</h1>
+    <p id="description">Are you ready to fight against the titan's outside the walls?</p>
+
+    <form id="survey-form">
+
+    <fieldset>
+      <legend>Personal Details</legend>
+
+      <div id="survey-form-name">
+        <label id="name-label" for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Levi Ackerman" required>
+      </div>
+
+      <div id="survey-form-email">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" id="email" placeholder="levi8080@gmail.com" required>
+      </div>
+
+      <div id="survey-form-age">
+        <label id="number-label" for="number">Age</label>
+          <input 
+          type="number" 
+          id="number" 
+          min="1" 
+          max="65" 
+          placeholder="21" 
+          required>
+      </div>
+    </fieldset>
+
+    <p>Did you come from the other branch? if you do which corps did you come from?</p>
+    <div class="form-group">
+      <select id="dropdown" name="military-branch" required>
+        <option value="" selected disabled>Select an option...</option>
+        <option value="null">I am not associated with any branch</option>
+        <option value="Garrison">Garrison</option>
+        <option value="Military-Police">Military Police</option>
+        <option value="Training-Corps">Training Corps</option>
+      </select>
+    </div>
+
+    <p>Are you aware of the risk of going outside the walls</p>
+    <div class="radio">
+      <label for="risk-yes">Yes
+        <input 
+        type="radio"
+        id="risk-yes"
+        name="wall-risk"
+        value="yes"
+        checked required>
+      </label>
+
+      <label for="risk-no">No
+        <input 
+        type="radio"
+        id="risk-no"
+        name="wall-risk"
+        value="no"
+        checked>
+      </label>
+    </div>
+
+    <div id="referral">
+      <p>Where did you hear about our corps?</p>
+
+      <label for="posters">Recruitment Posters</label>
+      <input 
+      type="checkbox" 
+      id="posters"
+      name="referral"
+      value="posters">
+
+      <label for="veterans">Veterans</label>
+      <input 
+      type="checkbox" 
+      id="veterans"
+      name="referral"
+      value="veterans">
+
+      <label for="recommended">Recommended</label>
+      <input 
+      type="checkbox" 
+      id="recommended"
+      name="referral"
+      value="recommended">
+
+      <label for="parade">Parades</label>
+      <input 
+      type="checkbox" 
+      id="parade"
+      name="referral"
+      value="parade">
+    </div>
+
+    <div id="opinion">
+      <p>What are your opinion about the soldiers so far?</p>
+      <textarea 
+      id="opinion"
+      rows="5"
+      placeholder="Comments..."></textarea>
+    </div>
+
+    <div id="submit-button">
+      <button type="submit" id="submit">submit</button>
+    </div>
+    </form>
+  </body>
+</html>
